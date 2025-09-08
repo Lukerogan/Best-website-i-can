@@ -5,3 +5,9 @@
 .herocol{
     text-align: center;
 }
+
+.heroshot{
+    background-image: url(../img/Praisethesun.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
