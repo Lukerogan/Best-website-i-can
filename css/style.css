@@ -1,13 +1,64 @@
-.socials{
-
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* adds a black outline to the text got from stack overflow */
 }
 
-.herocol{
+
+/* .socials{
+text-align: end;
+}
+
+.directory{
+    text-align:center;
+    align-content: space-around;
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+} */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.herotext{
+   padding-top: 20%;
     text-align: center;
+    align-content: center;
+    color: orangered;
 }
 
 .heroshot{
-    background-image: url(../img/Praisethesun.jpg);
+    background-image: url(../img/Praise-The-Sun-Dark-Souls.avif);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 93.2vh;
+    width: 100%;
+}
+
+
+.navbar ul{
+list-style-type: none;
+background-color:rgb(41, 41, 41) ;
+padding: 0;
+margin: 0;
+overflow: hidden;
+}
+
+.navbar a{
+color: white;
+text-decoration: none;
+padding: 15px;
+display: block;
+text-align: center;
+}
+
+.navbar a:hover{
+background-color: rgb(20, 20, 20);
+}
+
+.navbar li{
+float: left;
 }
